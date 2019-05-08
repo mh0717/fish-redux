@@ -8,16 +8,11 @@ environment:
     sdk: '>=2.0.0-dev.68.0 <3.0.0'
 
 dependencies:
-    flutter:
-        sdk: flutter
+    flutter_web: any
+    flutter_web_ui: any
 
 dev_dependencies:
     test: ^1.5.1
-    flutter_test:
-        sdk: flutter
-
-    test_widgets:
-        path: test/test_widgets
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
